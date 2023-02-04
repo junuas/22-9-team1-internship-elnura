@@ -92,8 +92,7 @@ function Login() {
               /> */}
             </Tabs>
 
-            {selectedTab === 0 && 
-            <JWTLoginTab />}
+            {selectedTab === 0 && <JWTLoginTab />}
 
             {/* {selectedTab === 1 && <FirebaseLoginTab />} */}
             {/* {selectedTab === 2 && <Auth0LoginTab />} */}
